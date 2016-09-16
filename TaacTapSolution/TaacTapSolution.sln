@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaacTapApp.Terminal.Windows", "TaacTapTerminal\TaacTapApp.Terminal.Windows.csproj", "{2BE46459-D899-4C61-A39E-32E67F606F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaacTapApp.Genie.Windows", "TaacTapGenie\TaacTapApp.Genie.Windows.csproj", "{801BE1FC-D194-453C-9AF8-250E1196C61E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TaacTapApp.Shared", "TaacTapApp.Shared\TaacTapApp.Shared.shproj", "{E37896B5-D247-4B78-BB57-F47CA54CDF48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaacTapApp", "TaacTapApp", "{B20AFB97-E93C-4403-9785-2ACF89FDCEA6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TaacTapApp.Shared\TaacTapApp.Shared.projitems*{e37896b5-d247-4b78-bb57-f47ca54cdf48}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|ARM.Build.0 = Debug|ARM
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x64.ActiveCfg = Debug|x64
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x64.Build.0 = Debug|x64
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x64.Deploy.0 = Debug|x64
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x86.ActiveCfg = Debug|x86
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x86.Build.0 = Debug|x86
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x86.Deploy.0 = Debug|x86
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|ARM.ActiveCfg = Release|ARM
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|ARM.Build.0 = Release|ARM
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|ARM.Deploy.0 = Release|ARM
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x64.ActiveCfg = Release|x64
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x64.Build.0 = Release|x64
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x64.Deploy.0 = Release|x64
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x86.ActiveCfg = Release|x86
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x86.Build.0 = Release|x86
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x86.Deploy.0 = Release|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|ARM.Build.0 = Debug|ARM
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x64.ActiveCfg = Debug|x64
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x64.Build.0 = Debug|x64
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x64.Deploy.0 = Debug|x64
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x86.ActiveCfg = Debug|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x86.Build.0 = Debug|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x86.Deploy.0 = Debug|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|ARM.ActiveCfg = Release|ARM
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|ARM.Build.0 = Release|ARM
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|ARM.Deploy.0 = Release|ARM
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|x64.ActiveCfg = Release|x64
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|x64.Build.0 = Release|x64
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|x64.Deploy.0 = Release|x64
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|x86.ActiveCfg = Release|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|x86.Build.0 = Release|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BE46459-D899-4C61-A39E-32E67F606F64} = {B20AFB97-E93C-4403-9785-2ACF89FDCEA6}
+		{801BE1FC-D194-453C-9AF8-250E1196C61E} = {B20AFB97-E93C-4403-9785-2ACF89FDCEA6}
+		{E37896B5-D247-4B78-BB57-F47CA54CDF48} = {B20AFB97-E93C-4403-9785-2ACF89FDCEA6}
+	EndGlobalSection
+EndGlobal
