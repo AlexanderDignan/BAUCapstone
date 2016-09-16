@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="TaacTapTerminal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TaacTapTerminal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="800" Width="1280">
+    <Canvas Background="DarkGray" HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="1280">
+
+        <Border Background="Black" BorderBrush="Black" BorderThickness="1" Height="100" Width="1280">
+
+
+        </Border>
+        <Image  Source="{Binding Logo}" x:Name="image" Height="{Binding Height}" Canvas.Left="1152" Width="120" RenderTransformOrigin="0.468,0.553"/>
+        <Image  Source="/Images/TablePage.png" Tapped="image1_Tapped" x:Name="image1" Height="250" Canvas.Top="242" Width="250" Canvas.Left="42"/>
+        <Image Source="/Images/ProgressStation.png" Tapped="image2_Tapped" x:Name="image2" Height="250" Canvas.Left="360" Canvas.Top="242" Width="250"/>
+        <Image Source="/Images/SalesReport.png" Tapped="image2_Copy_Tapped" x:Name="image2_Copy" Height="250" Canvas.Left="684" Canvas.Top="242" Width="250"/>
+        <Image Source="/Images/BillPage.png" Tapped="image2_Copy1_Tapped"  x:Name="image2_Copy1" Height="250" Canvas.Left="1001" Canvas.Top="242" Width="250"/>
+        <TextBlock x:Name="textBlock" Canvas.Left="42" TextWrapping="Wrap" Text="Tables" Canvas.Top="525" Height="78" Width="250"/>
+        <TextBlock x:Name="textBlock1" Canvas.Left="360" TextWrapping="Wrap" Text="Progress Station" Canvas.Top="525" Height="78" Width="250"/>
+        <TextBlock x:Name="textBlock2" Canvas.Left="684" TextWrapping="Wrap" Text="Sales Report" Canvas.Top="525" Height="78" Width="250"/>
+        <TextBlock x:Name="textBlock3" Canvas.Left="1001" TextWrapping="Wrap" Text="Billing" Canvas.Top="525" Height="78" Width="250"/>
+        <TextBlock Foreground="Gold"  x:Name="textBlock4" TextWrapping="Wrap" Text="TaacTapApp" Width="443"  Height="104" Canvas.Left="167" FontSize="80" Canvas.Top="-4"/>
+
+
+
+    </Canvas>
+</Page>
