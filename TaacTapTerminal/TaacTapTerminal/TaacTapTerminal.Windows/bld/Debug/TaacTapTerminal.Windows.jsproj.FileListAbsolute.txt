@@ -1,0 +1,15 @@
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bin\Debug\ReverseMap\resources.pri
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bin\Debug\TaacTapTerminal.Windows.build.appxrecipe
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\priconfig.xml
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\priconfig.xml.intermediate
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\layout.resfiles
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\layout.resfiles.intermediate
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\resources.resfiles
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\resources.resfiles.intermediate
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\pri.resfiles
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\pri.resfiles.intermediate
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\qualifiers.txt
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Alex\OneDrive\School\Capstone\Visual Studio\TaacTapTerminal\TaacTapTerminal\TaacTapTerminal.Windows\bld\Debug\ProjectArchitectures.txt
