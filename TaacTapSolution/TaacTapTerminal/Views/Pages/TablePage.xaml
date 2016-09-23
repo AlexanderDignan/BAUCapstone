@@ -18,10 +18,11 @@
 
             </Border>
 
-            <Button Click="button_Click" Background="LightBlue" x:Name="button" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Canvas.Top="700" Width="318" Height="100"/>
-            <Button Background="LightBlue" x:Name="button1" Content="All Tables" Canvas.Left="323" Canvas.Top="700" Height="100" Width="320"/>
-            <Button Background="LightBlue" x:Name="button2" Content="Sort Tables " HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Canvas.Left="648" Canvas.Top="700" Height="100" Width="312"/>
-            <Button Background="LightBlue" x:Name="button3" Content="Sort By Waitstaff" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RenderTransformOrigin="16.136,23.892" Height="100"  Width="315" Canvas.Left="965" Canvas.Top="700"/>
+            <Button Click="button_Click" Background="LightGray" x:Name="button" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Canvas.Top="700" Width="318" Height="100"/>
+            <Button Background="LightGray" x:Name="button1" Content="All Tables" Canvas.Left="323" Canvas.Top="700" Height="100" Width="320"/>
+            <Button Background="LightGray" x:Name="button2" Content="Sort Tables " HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Canvas.Left="648" Canvas.Top="700" Height="100" Width="312"/>
+            <Button Background="LightGray" x:Name="button3" Content="Sort By Waitstaff" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RenderTransformOrigin="16.136,23.892" Height="100"  Width="315" Canvas.Left="965" Canvas.Top="700"/>
+            <ListView Background="LightGray" x:Name="listView" Height="100" Canvas.Left="96" Canvas.Top="157" Width="100"/>
 
 
         </Canvas>

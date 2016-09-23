@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Microsoft.Data.Entity;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TaacTapTerminal.Models.LocalData;
+using TaacTapTerminal.SampleData;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -33,6 +36,22 @@ namespace TaacTapTerminal
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            // Before running the app for the first time, follow these steps:
+            // 1- Build -> Build the Project
+            // 2- Tools –> NuGet Package Manager –> Package Manager Console
+            // 3- Run "Add-Migration MyFirstMigration" to scaffold a migration to create the initial set of tables for your model
+            // See here for more information https://docs.efproject.net/en/latest/platforms/uwp/getting-started.html#create-your-database
+
+            //using (var database = new FakeDbContext())
+            //{
+            //    database.Database.Migrate();
+            //}
+
+            using (var database = new LocalStorageDbContext())
+            {
+                database.Database.Migrate();
+            }
         }
 
         /// <summary>
