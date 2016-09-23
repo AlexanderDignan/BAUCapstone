@@ -1,9 +1,12 @@
 ﻿using TaacTapTerminal.Models;
 using TaacTapTerminal.ViewModels;
 using TaacTapTerminal.Views;
+using TaacTapTerminal.Views.FakePages;
 using TaacTapTerminal.Views.Pages;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -42,5 +45,17 @@ namespace TaacTapTerminal
             this.Frame.Navigate(typeof(BillingPage));
 
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(FakeViewxaml));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(FakeOrderView));
+        }
+
+      
     }
 }

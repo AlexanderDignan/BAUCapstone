@@ -16,14 +16,17 @@ Global
 		TaacTapApp.Shared\TaacTapApp.Shared.projitems*{e37896b5-d247-4b78-bb57-f47ca54cdf48}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|ARM.ActiveCfg = Debug|ARM
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|ARM.Build.0 = Debug|ARM
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -33,6 +36,7 @@ Global
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x86.ActiveCfg = Debug|x86
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x86.Build.0 = Debug|x86
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Debug|x86.Deploy.0 = Debug|x86
+		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|Any CPU.ActiveCfg = Release|x86
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|ARM.ActiveCfg = Release|ARM
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|ARM.Build.0 = Release|ARM
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|ARM.Deploy.0 = Release|ARM
@@ -42,6 +46,7 @@ Global
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x86.ActiveCfg = Release|x86
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x86.Build.0 = Release|x86
 		{2BE46459-D899-4C61-A39E-32E67F606F64}.Release|x86.Deploy.0 = Release|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|ARM.ActiveCfg = Debug|ARM
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|ARM.Build.0 = Debug|ARM
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -51,6 +56,7 @@ Global
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x86.ActiveCfg = Debug|x86
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x86.Build.0 = Debug|x86
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Debug|x86.Deploy.0 = Debug|x86
+		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|Any CPU.ActiveCfg = Release|x86
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|ARM.ActiveCfg = Release|ARM
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|ARM.Build.0 = Release|ARM
 		{801BE1FC-D194-453C-9AF8-250E1196C61E}.Release|ARM.Deploy.0 = Release|ARM

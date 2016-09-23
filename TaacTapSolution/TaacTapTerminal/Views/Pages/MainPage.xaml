@@ -18,7 +18,7 @@
         <Image Source="/Images/SalesReport.png" Tapped="image2_Copy_Tapped" x:Name="image2_Copy" Height="250" Canvas.Left="684" Canvas.Top="242" Width="250"/>
         <Image Source="/Images/BillPage.png" Tapped="image2_Copy1_Tapped"  x:Name="image2_Copy1" Height="250" Canvas.Left="1001" Canvas.Top="242" Width="250"/>
         <TextBlock x:Name="textBlock" Canvas.Left="42" TextWrapping="Wrap" Text="Tables" Canvas.Top="525" Height="78" Width="250"/>
-        <TextBlock x:Name="textBlock1" Canvas.Left="360" TextWrapping="Wrap" Text="Progress Station" Canvas.Top="525" Height="78" Width="250"/>
+        <TextBlock x:Name="textBlock1" Canvas.Left="360" TextWrapping="Wrap" Text="Orders" Canvas.Top="525" Height="78" Width="250"/>
         <TextBlock x:Name="textBlock2" Canvas.Left="684" TextWrapping="Wrap" Text="Sales Report" Canvas.Top="525" Height="78" Width="250"/>
         <TextBlock x:Name="textBlock3" Canvas.Left="1001" TextWrapping="Wrap" Text="Billing" Canvas.Top="525" Height="78" Width="250"/>
         <TextBlock Foreground="Gold"  x:Name="textBlock4" TextWrapping="Wrap" Text="TaacTapApp" Width="443"  Height="104" Canvas.Left="167" FontSize="80" Canvas.Top="-4"/>

@@ -101,9 +101,46 @@
     <Compile Include="Controls\UI\BackgroundTemplate.xaml.cs">
       <DependentUpon>BackgroundTemplate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160919124936_FirstMigration.cs" />
+    <Compile Include="Migrations\20160919124936_FirstMigration.designer.cs">
+      <DependentUpon>20160919124936_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20160919135926_test.cs" />
+    <Compile Include="Migrations\20160919135926_test.designer.cs">
+      <DependentUpon>20160919135926_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\FakeDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\LocalStorageDb\20160921183250_LocalStorage.cs" />
+    <Compile Include="Migrations\LocalStorageDb\20160921183250_LocalStorage.designer.cs">
+      <DependentUpon>20160921183250_LocalStorage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\LocalStorageDb\LocalStorageDbContextModelSnapshot.cs" />
+    <Compile Include="Models\Bill.cs" />
+    <Compile Include="Models\FakeModels\FakeRestaurantModel.cs" />
+    <Compile Include="Models\LocalData\LocalStorageDbContext.cs" />
+    <Compile Include="Models\Menu..cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\RestaurantInfo.cs" />
+    <Compile Include="Models\RestaurantTable.cs" />
     <Compile Include="Models\UI\CompanyLogo.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="SampleData\FakeCloudService.cs" />
+    <Compile Include="SampleData\FakeDbContext.cs" />
+    <Compile Include="ViewModels\FakeViewModels\FakeRestaurantViewModel.cs" />
+    <Compile Include="ViewModels\FakeViewModels\FakeTableViewModel.cs" />
     <Compile Include="ViewModels\Pages\TablePageViewModel.cs" />
     <Compile Include="ViewModels\UI\CompanyLogoViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelHelpers.cs" />
+    <Compile Include="Views\FakePages\FakeOrderView.xaml.cs">
+      <DependentUpon>FakeOrderView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FakePages\FakeViewxaml.xaml.cs">
+      <DependentUpon>FakeViewxaml.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\BillingPage.xaml.cs">
       <DependentUpon>BillingPage.xaml</DependentUpon>
     </Compile>
@@ -113,8 +150,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\Pages\MainPageViewModel.cs" />
     <Compile Include="ViewModels\ViewModelLocator.cs" />
-    <Compile Include="Views\Pages\ProgressStationPage.xaml.cs">
-      <DependentUpon>ProgressStationPage.xaml</DependentUpon>
+    <Compile Include="Views\Pages\OrdersPage.xaml.cs">
+      <DependentUpon>OrdersPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\SalesReportPage.xaml.cs">
       <DependentUpon>SalesReportPage.xaml</DependentUpon>
@@ -154,6 +191,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\FakePages\FakeOrderView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FakePages\FakeViewxaml.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\BillingPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -162,7 +207,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Pages\ProgressStationPage.xaml">
+    <Page Include="Views\Pages\OrdersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -176,9 +221,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Files\" />
     <Folder Include="Services\" />
     <Folder Include="Utils\" />
-    <Folder Include="ViewModels\Buttons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
